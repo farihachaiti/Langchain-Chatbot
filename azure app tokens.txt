@@ -1,0 +1,23 @@
+app client id:08da3d63-c528-4c2d-a878-5781beec1e18
+client secret value:BcH8Q~yXPlmun.sW1LMFZKKn5pv3V_wXSp0xjbjG
+client secret id:48669114-db7b-474a-8dde-aa79d64a35f4
+object id:400625f6-a234-41dd-9f03-3222ab2d8389
+tenant id:890ec20b-d78c-4af2-96b7-fbc32a15e0ee
+app id uri:api://08da3d63-c528-4c2d-a878-5781beec1e18
+scope:api://08da3d63-c528-4c2d-a878-5781beec1e18/Sites.ReadWrite.All
+certificate thumbnail:C8892A5294D825D2461799F733339ABF169229AC
+authority url:https://login.microsoftonline.com/890ec20b-d78c-4af2-96b7-fbc32a15e0ee
+API Permission
+name:https://microsoft.sharepoint.comAllSites.FullControl
+Resource app id:00000003-0000-0ff1-ce00-000000000000
+Permission Id:56680e0d-d2a3-4ae1-80d8-3c4f2100e3d0
+
+
+$cert = Get-ChildItem -Path Cert:\LocalMachine\My | Where-Object {$_.Thumbprint -eq "C8892A5294D825D2461799F733339ABF169229AC"}
+Export-Certificate -Cert $cert -FilePath "E:\python\Terna-Chatbot\assets\TERNA.cer"
+https://universityoftrento327.sharepoint.com/:u:/s/TernaChatbot/EaelwA4yZ9BNnN8jXS-C5EgBsrIcDmWweaHubXwgRf_PZQ?e=i049Tm
+
+terna sharepoint password:275767far,.
+
+W/294937565318uj
+W/294937565318uj
